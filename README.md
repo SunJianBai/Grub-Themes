@@ -4,7 +4,7 @@
 
   `git clone https://github.com/RomjanHossain/Grub-Themes.git`
 
-* Change to cloned directory and make `install.sh` executable - 
+* Change to cloned directory 和 make `install.sh` executable - 
 
   `cd Grub-Themes`
 
@@ -14,172 +14,90 @@
 
 
 
+---
 
+1. **ichika, itsuki, Miku, Nino, Yotsuba**  
+   Link: [ichika, itsuki, Miku, Nino, Yotsuba](https://github.com/13atm01/GRUB-Theme)  
+   | ![ichika](screenshot/ichika.gif) | ![itsuki](screenshot/itsuki.gif) | ![miku](screenshot/miku.gif) |
+   | -------------------------------- | -------------------------------- | ---------------------------- |
+   | ![nino](screenshot/nino.gif)     |                                  | ![yotsuba](screenshot/yotsuba.gif) |
 
-## Screenshots of Grub-Themes
+2. **polylight**  
+   Link: [polylight](https://github.com/shvchk/poly-light)  
+   ![polylight](screenshot/polylight.gif)
 
-###### Vimix
+3. **cyberpunk**  
+   Link: [cyberpunk](https://github.com/anoopmsivadas/Cyberpunk-GRUB-Theme)  
+   ![cyberpunk](screenshot/cyberpunk.png)
 
-#### ![Vimix](screenshot/vimix.jpg)
+4. **cyberpunk2**  
+   Link: [cyberpunk2](https://github.com/NayamAmarshe/Cyberpunk-GRUB-Theme)  
+   ![cyberpunk2](screenshot/cyberpunk2.png)
 
-Tela
+5. **darkmatter**  
+   Link: [darkmatter](https://github.com/vandalsoul/darkmatter-grub2-theme)  
+   ![darkmatter](screenshot/darkmatter.png)
 
-![tela](screenshot/tela.jpg)
+6. **deadpool**  
+   Link: [deadpool](https://github.com/BishwasSagar/grub2-deadpool-theme)  
+   ![deadpool](screenshot/deadpool.png)
 
-Fallout
+7. **monterey**  
+   Link: [monterey](https://github.com/sandesh236/monterey-grub-theme)  
+   ![monterey](screenshot/monte.png)
 
-![fallout](screenshot/fallout.gif)
+8. **virtual future**  
+   Link: [virtual future](https://gitlab.com/deck451/virtual_future_grub_theme)  
+   ![virtual future](screenshot/virtual.png)
 
-CyberRe
+9. **virtuaverse**  
+   Link: [virtuaverse](https://github.com/Patato777/dotfiles/tree/main/grub/themes/virtuaverse)  
+   ![virtuaverse](screenshot/virtuaverse.JPG)
 
-![cyberre](screenshot/cyberre.png)
+10. **among us**  
+    Link: [among us](https://github.com/sueperb/tasty-grubs)  
+    *图片未提供*
 
-DedSec
+11. **arcade**  
+    Link: [arcade](https://github.com/nobreDaniel/dotfile.git)  
+    ![arcade](screenshot/arcade.png)
 
-![Dedsec](screenshot/dedsec.png)
+12. **mario**  
+    Link: [mario](https://github.com/Crylia/dotfiles.git)  
+    ![mario](screenshot/mario.png)
 
+13. **sekiro**  
+    Link: [sekiro](https://github.com/semimqmo/sekiro_grub_theme/)  
+    ![sekiro](screenshot/sekiro.png)
 
+14. **sleek**  
+    Link: [sleek](https://github.com/sandesh236/sleek--themes)  
+    ![sleek](screenshot/sleek.png)
 
+15. **bigsur**  
+    Link: [bigsur](https://github.com/Teraskull/bigsur-grub2-theme)  
+    ![bigsur](screenshot/bigsur.png)
 
+16. **atomic**  
+    Link: [atomic](https://github.com/lfelipe1501/Atomic-GRUB2-Theme)  
+    ![atomic](screenshot/atomic.gif)
 
-### Arcade
+17. **fallout**  
+    Link: [fallout](https://github.com/shvchk/fallout-grub-theme)  
+    ![fallout](screenshot/fallout.gif)
 
-#### ![arcade](screenshot/arcade.png)
+18. **arch, kali**  
+    Link: [arch, kali](https://github.com/xenlism/Grub-themes)  
+    | ![arch](screenshot/arch.jpg) | ![kali](screenshot/kali.jpg) |
 
+19. **dedsec**  
+    Link: [dedsec](https://github.com/vandalsoul/dedsec-grub2-theme)  
+    ![dedsec](screenshot/dedsec.png)
 
+20. **whitesur**  
+    Link: [whitesur](https://github.com/vinceliuice/grub2-themes)  
+    ![whitesur](screenshot/whitesur.jpg)
 
-### Mario
+---
 
-#### ![Vimix](screenshot/mario.png)
 
-
-
-### sekiro
-
-
-
-#### ![Vimix](screenshot/sekiro.png)
-
-### virtua
-
-
-
-#### ![Vimix](screenshot/virtuaverse.JPG)
-
-
-
-
-
-Sleek
-
-![Dedsec](screenshot/sleek.png)
-
-Bigsur 
-
-![Dedsec](screenshot/bigsur.png)
-
-Atomic
-
-![atomic](screenshot/atomic.gif)
-
-Ichika, Itsuki, Miku, Nino and Yotsuba
-
-| ![](screenshot/ichika.gif) | ![](screenshot/itsuki.gif) | ![](screenshot/miku.gif)    |
-| -------------------------- | -------------------------- | --------------------------- |
-| ![](screenshot/nino.gif)   |                            | ![](screenshot/yotsuba.gif) |
-
-
-
-Arch,  Kali
-
-| ![](screenshot/arch.jpg) |
-| ------------------------ |
-| ![](screenshot/kali.jpg) |
-
-Cyberpunk
-
-![](screenshot/cyberpunk.png)
-
-Cyberpunk2
-
-![](screenshot/cyberpunk2.png)
-
-
-
-Virtual Future
-
-![](screenshot/virtual.png)
-
-
-
-Darkmatter
-
-![](screenshot/darkmatter.png)
-
-Deadpool 
-
-![](screenshot/deadpool.png)
-
-Monterey
-
-![](screenshot/monte.png)
-
-Shodan
-
-![](screenshot/shodan.png)
-
-
-
-WhiteSur
-
-![](screenshot/whitesur.jpg)
-
-
-
-polylight
-
-![](screenshot/polylight.gif)
-
-
-
-## Real Repo of those Grub-Themes:
-
-vimix, tela => https://github.com/vinceliuice/grub2-themes
-
-fallout => https://github.com/shvchk/fallout-grub-theme
-
-dedsec => https://github.com/vandalsoul/dedsec-grub2-theme
-
-sleek => https://github.com/sandesh236/sleek--themes
-
-bigsur => https://github.com/Teraskull/bigsur-grub2-theme
-
-atomic => https://github.com/lfelipe1501/Atomic-GRUB2-Theme
-
-ichika, itsuki, Miku, Nino, Yotsuba => https://github.com/13atm01/GRUB-Theme
-
-polylight => https://github.com/shvchk/poly-light
-
-Arch, Kali => https://github.com/xenlism/Grub-themes
-
-cyberpunk => https://github.com/anoopmsivadas/Cyberpunk-GRUB-Theme
-
-cyberpunk2 => https://github.com/NayamAmarshe/Cyberpunk-GRUB-Theme
-
-darkmatter => https://github.com/vandalsoul/darkmatter-grub2-theme
-
-deadpool => https://github.com/BishwasSagar/grub2-deadpool-theme
-
-monterey => https://github.com/sandesh236/monterey-grub-theme
-
-virtual future => https://gitlab.com/deck451/virtual_future_grub_theme
-
-mario => https://github.com/Crylia/dotfiles.git
-
-sekiro => https://github.com/semimqmo/sekiro_grub_theme/
-
-virtuaverse => https://github.com/Patato777/dotfiles/tree/main/grub/themes/virtuaverse
-
-among us => https://github.com/sueperb/tasty-grubs
-
-arcade => https://github.com/nobreDaniel/dotfile.git
