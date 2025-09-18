@@ -12,7 +12,7 @@ function echo_warning() {   echo -ne "\033[0;33m${*}\033[0m\n"; }
 function echo_secondary() { echo -ne "\033[0;34m${*}\033[0m\n"; }
 function echo_info() {      echo -ne "\033[0;35m${*}\033[0m\n"; }
 function echo_primary() {   echo -ne "\033[0;36m${*}\033[0m\n"; }
-function echo_error() {     echo -ne "\033[0;1;31merror:\033[0;31m\t${*}\033[0m\n"; }
+function echo_error() {     echo -ne "\033[0;1;31m错误:\033[0;31m\t${*}\033[0m\n"; }
 function echo_label() {     echo -ne "\033[0;1;32m${*}:\033[0m\t"; }
 function echo_prompt() {    echo -ne "\033[0;36m${*}\033[0m "; }
 
@@ -20,116 +20,116 @@ function splash() {
     local hr
     hr=" **$(printf "%${#1}s" | tr ' ' '*')** "
     echo_title "${hr}"
-    echo_title " * $1 * "
+      echo_title " * $1 * "
     echo_title "${hr}"
     echo
 }
 
 function check_root() {
-  # checking root
+      # 检查 root 权限
     ROOT_UID=0
     if [[ ! "${UID}" -eq "${ROOT_UID}" ]]; then
-        # Error message
-        echo_error 'Run me as root.'
-        echo_info 'try sudo ./install.sh'
+                        # 错误信息
+                        echo_error '请以 root 身份运行。'
+                        echo_info '例如：sudo ./install.sh'
         exit 1
     fi
 }
 
 function select_theme() {
-  # selecting Themes
-    themes=('Amogus' 'Arcade' 'Arch' 'Atomic' 'BigSur' 'Cyberpunk' 'Cyberpunk2' 'CyberRe' 'Darkmatter' 'Deadpool' 'DedSec' 'fallout' 'Ichika' 'Itsuki' 'Kali' 'Mario' 'Miku' 'Monterey' 'Nino' 'Polylight' 'Sekiro' 'Shodan' 'Sleek' 'Tela' 'Vimix' 'Virtualfuture' 'whitesur' 'Yotsuba' 'Quit')
+      # 选择主题
+            themes=('Amogus' 'Arcade' 'Arch' 'Atomic' 'BigSur' 'Cyberpunk' 'Cyberpunk2' 'CyberRe' 'Darkmatter' 'Deadpool' 'DedSec' 'fallout' 'Ichika' 'Itsuki' 'Kali' 'Mario' 'Miku' 'Monterey' 'Nino' 'Polylight' 'Sekiro' 'Shodan' 'Sleek' 'Tela' 'Vimix' 'Virtualfuture' 'whitesur' 'Yotsuba' 'Quit')
 
-    PS3=$(echo_prompt '\nChoose The Theme You Want: ')
+            PS3=$(echo_prompt '\n请选择要安装的主题: ')
     select THEME_NAME in "${themes[@]}"; do
         case "${THEME_NAME}" in
           'Amogus')
-            splash 'Installing AmongUS Theme'
+                                    splash '正在安装 AmongUS 主题'
             break;;
           'Arcade')
-            splash 'Installing Arcade Theme'
+                                    splash '正在安装 Arcade 主题'
             break;;
           'Arch')
-            splash 'Installing Arch Theme'
+                                    splash '正在安装 Arch 主题'
             break;;
           'Atomic')
-            splash 'Installing Atomic Theme'
+                                    splash '正在安装 Atomic 主题'
             break;;
           'BigSur')
-            splash 'Installing BigSur Theme'
+                                    splash '正在安装 BigSur 主题'
             break;;
           'CyberRe')
-                splash 'Installing CyberRe Theme'
+                                                splash '正在安装 CyberRe 主题'
                 break;;
           'Cyberpunk')
-                splash 'Installing Cyberpunk Theme'
+                                                splash '正在安装 Cyberpunk 主题'
                 break;;
           'Cyberpunk2')
-                splash 'Installing Cyberpunk2 Theme'
+                                                splash '正在安装 Cyberpunk2 主题'
                 break;;
           'Darkmatter')
-                splash 'Installing Darkmatter Theme'
+                                                splash '正在安装 Darkmatter 主题'
                 break;;
           'Deadpool')
-                splash 'Installing Deadpool Theme'
+                                                splash '正在安装 Deadpool 主题'
                 break;;
           'DedSec')
-                splash 'installing DedSec Theme' 
+                                                splash '正在安装 DedSec 主题' 
                 break;;
           'fallout')
-                splash 'Installing fallout Theme'
+                                                splash '正在安装 fallout 主题'
                 break;;
           
           'Ichika')
-                splash 'installing Ichika Theme' 
+                                                splash '正在安装 Ichika 主题' 
                 break;;
           'Itsuki')
-                splash 'installing Itsuki Theme' 
+                                                splash '正在安装 Itsuki 主题' 
                 break;;
           'Kali')
-                splash 'installing Kali Theme' 
+                                                splash '正在安装 Kali 主题' 
                 break;;
           'Mario')
-                splash 'installing Mario Theme' 
+                                                splash '正在安装 Mario 主题' 
                 break;;
          'Miku')
-                splash 'installing Miku Theme' 
+                                                splash '正在安装 Miku 主题' 
                 break;;
           'Monterey')
-                splash 'installing Monterey Theme' 
+                                                splash '正在安装 Monterey 主题' 
                 break;;
           'Nino')
-                splash 'installing Nino Theme' 
+                                                splash '正在安装 Nino 主题' 
                 break;;
           'Polylight')
-                splash 'installing Polylight Theme' 
+                                                splash '正在安装 Polylight 主题' 
                 break;;
           'Sekiro')
-                splash 'Installing Sekiro Theme'
+                                                splash '正在安装 Sekiro 主题'
                 break;;
           'Shodan')
-                splash 'Installing Shodan Theme'
+                                                splash '正在安装 Shodan 主题'
                 break;;
           'Sleek')
-                splash 'Installing Sleek Theme'
+                                                splash '正在安装 Sleek 主题'
                 break;;
           'Tela')
-                splash 'Installing Tela Theme'
+                                                splash '正在安装 Tela 主题'
                 break;;
           'Vimix')
-                splash 'Installing Vimix Theme'
+                                                splash '正在安装 Vimix 主题'
                 break;;
            'Virtualfuture')
-                splash 'Installing Virtualfuture Theme'
+                                                splash '正在安装 Virtualfuture 主题'
                 break;;
           'whitesur')
-                splash 'installing whitesur Theme' 
+                                                splash '正在安装 whitesur 主题' 
                 break;;
           'Yotsuba')
-                splash 'installing Yotsuba Theme' 
+                                                splash '正在安装 Yotsuba 主题' 
                 break;;
           'Quit')
-                echo_info 'User requested exit'
+                                                echo_info '用户选择退出'
                 exit 0;;
             *) echo_warning "invalid option \"${REPLY}\"";;
         esac
@@ -137,16 +137,16 @@ function select_theme() {
 }
 
 function backup() {
-    # Backup grub config
-    echo_info 'cp -an /etc/default/grub /etc/default/grub.bak'
+      # 备份 grub 配置
+      echo_info 'cp -an /etc/default/grub /etc/default/grub.bak'
     cp -an /etc/default/grub /etc/default/grub.bak
 }
 
 function install_theme() {
-    # create themes directory if not exists
+      # 若不存在，创建主题目录
     if [[ ! -d "${THEME_DIR}/${THEME_NAME}" ]]; then
-        # Copy theme
-        echo_primary "Installing ${THEME_NAME} theme..."
+            # 复制主题文件
+            echo_primary "正在安装 ${THEME_NAME} 主题..."
 
         echo_info "mkdir -p \"${THEME_DIR}/${THEME_NAME}\""
         mkdir -p "${THEME_DIR}/${THEME_NAME}"
@@ -157,25 +157,24 @@ function install_theme() {
 }
 
 function config_grub() {
-    echo_primary 'Enabling grub menu'
-    # remove default grub style if any
+      echo_primary '启用 GRUB 菜单'
+      # 删除已有的 GRUB_TIMEOUT_STYLE 配置
     echo_info "sed -i '/GRUB_TIMEOUT_STYLE=/d' /etc/default/grub"
     sed -i '/GRUB_TIMEOUT_STYLE=/d' /etc/default/grub
 
-    echo_info "echo 'GRUB_TIMEOUT_STYLE=\"menu\"' >> /etc/default/grub"
-    echo 'GRUB_TIMEOUT_STYLE="menu"' >> /etc/default/grub
+      echo_info "echo 'GRUB_TIMEOUT_STYLE=\"menu\"' >> /etc/default/grub"
+      echo 'GRUB_TIMEOUT_STYLE="menu"' >> /etc/default/grub
 
-
-    echo_primary 'Setting grub timeout to 10 seconds'
-    # remove default timeout if any
+      echo_primary '设置 GRUB 超时时间为 10 秒'
+      # 删除已有的 GRUB_TIMEOUT 配置
     echo_info "sed -i '/GRUB_TIMEOUT=/d' /etc/default/grub"
     sed -i '/GRUB_TIMEOUT=/d' /etc/default/grub
 
-    echo_info "echo 'GRUB_TIMEOUT=\"10\"' >> /etc/default/grub"
-    echo 'GRUB_TIMEOUT="10"' >> /etc/default/grub
+      echo_info "echo 'GRUB_TIMEOUT=\"10\"' >> /etc/default/grub"
+      echo 'GRUB_TIMEOUT="10"' >> /etc/default/grub
 
-    echo_primary "Setting ${THEME_NAME} as default"
-    # remove theme if any
+      echo_primary "将 ${THEME_NAME} 设置为默认主题"
+      # 删除已有的 GRUB_THEME 配置
     echo_info "sed -i '/GRUB_THEME=/d' /etc/default/grub"
     sed -i '/GRUB_THEME=/d' /etc/default/grub
 
@@ -184,8 +183,8 @@ function config_grub() {
 }
 
 function update_grub() {
-    # Update grub config
-    echo_primary 'Updating grub config...'
+      # 更新 grub 配置
+      echo_primary '正在更新 GRUB 配置...'
     if [[ -x "$(command -v update-grub)" ]]; then
         echo_info 'update-grub'
         update-grub
@@ -195,12 +194,12 @@ function update_grub() {
         grub-mkconfig -o /boot/grub/grub.cfg
 
     elif [[ -x "$(command -v grub2-mkconfig)" ]]; then
-        if [[ -x "$(command -v zypper)" ]]; then
-            echo_info 'grub2-mkconfig -o /boot/grub2/grub.cfg'
+            if [[ -x "$(command -v zypper)" ]]; then
+                  echo_info 'grub2-mkconfig -o /boot/grub2/grub.cfg'
             grub2-mkconfig -o /boot/grub2/grub.cfg
 
         elif [[ -x "$(command -v dnf)" ]]; then
-            echo_info 'grub2-mkconfig -o /boot/efi/EFI/fedora/grub.cfg'
+                  echo_info 'grub2-mkconfig -o /boot/efi/EFI/fedora/grub.cfg'
             grub2-mkconfig -o /boot/efi/EFI/fedora/grub.cfg
         fi
     fi
@@ -215,7 +214,7 @@ function main() {
     config_grub
     update_grub
 
-    echo_success 'All done !!!'
+      echo_success '安装完成！'
 }
 
 main
