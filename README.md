@@ -1,8 +1,8 @@
-<!-- 语言: 简体中文 | [English](README.en.md) -->
-
 # Grub Themes 主题集合
 
 一个收集多款 GRUB 引导主题的仓库，提供一键安装脚本。默认以中文展示，顶部可切换到英文版 README。
+
+简体中文 | [English](README.en.md)
 
 ## 安装
 

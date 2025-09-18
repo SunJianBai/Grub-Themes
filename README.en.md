@@ -2,6 +2,8 @@
 
 # Grub Themes
 
+[简体中文](README.md) | English
+
 ## Installation
 
 * First clone this repo
