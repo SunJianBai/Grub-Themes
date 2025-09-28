@@ -27,88 +27,88 @@
 
 ## 主题来源与预览
 
-1. ichika / itsuki / Miku / Nino / Yotsuba  
+1. Ichika（一花） / Itsuki（五木） / Miku（初音未来） / Nino（二乃） / Yotsuba（四叶）  
     链接: [13atm01/GRUB-Theme](https://github.com/13atm01/GRUB-Theme)
 
     | ![ichika](screenshot/ichika.gif) | ![itsuki](screenshot/itsuki.gif) | ![miku](screenshot/miku.gif) |
     | -------------------------------- | -------------------------------- | ---------------------------- |
     | ![nino](screenshot/nino.gif)     |                                  | ![yotsuba](screenshot/yotsuba.gif) |
 
-2. polylight  
+2. Polylight（多光）  
     链接: [shvchk/poly-light](https://github.com/shvchk/poly-light)  
     ![polylight](screenshot/polylight.gif)
 
-3. cyberpunk  
+3. Cyberpunk（赛博朋克）  
     链接: [anoopmsivadas/Cyberpunk-GRUB-Theme](https://github.com/anoopmsivadas/Cyberpunk-GRUB-Theme)  
     ![cyberpunk](screenshot/cyberpunk.png)
 
-4. cyberpunk2  
+4. Cyberpunk2（赛博朋克2）  
     链接: [NayamAmarshe/Cyberpunk-GRUB-Theme](https://github.com/NayamAmarshe/Cyberpunk-GRUB-Theme)  
     ![cyberpunk2](screenshot/cyberpunk2.png)
 
-5. darkmatter  
+5. Darkmatter（暗物质）  
     链接: [vandalsoul/darkmatter-grub2-theme](https://github.com/vandalsoul/darkmatter-grub2-theme)  
     ![darkmatter](screenshot/darkmatter.png)
 
-6. deadpool  
+6. Deadpool（死侍）  
     链接: [BishwasSagar/grub2-deadpool-theme](https://github.com/BishwasSagar/grub2-deadpool-theme)  
     ![deadpool](screenshot/deadpool.png)
 
-7. monterey  
+7. Monterey（蒙特雷）  
     链接: [sandesh236/monterey-grub-theme](https://github.com/sandesh236/monterey-grub-theme)  
     ![monterey](screenshot/monte.png)
 
-8. virtual future  
+8. Virtualfuture（虚拟未来）  
     链接: [deck451/virtual_future_grub_theme](https://gitlab.com/deck451/virtual_future_grub_theme)  
     ![virtual future](screenshot/virtual.png)
 
-9. virtuaverse  
+9. Virtuaverse  
     链接: [Patato777/virtuaverse](https://github.com/Patato777/dotfiles/tree/main/grub/themes/virtuaverse)  
     ![virtuaverse](screenshot/virtuaverse.JPG)
 
-10. among us  
+10. Amogus  
     链接: [sueperb/tasty-grubs](https://github.com/sueperb/tasty-grubs)  
      （图片未提供）
 
-11. arcade  
+11. Arcade（街机）  
     链接: [nobreDaniel/dotfile](https://github.com/nobreDaniel/dotfile.git)  
      ![arcade](screenshot/arcade.png)
 
-12. mario  
+12. Mario（马里奥）  
     链接: [Crylia/dotfiles](https://github.com/Crylia/dotfiles.git)  
      ![mario](screenshot/mario.png)
 
-13. sekiro  
+13. Sekiro（只狼）  
     链接: [semimqmo/sekiro_grub_theme](https://github.com/semimqmo/sekiro_grub_theme/)  
      ![sekiro](screenshot/sekiro.png)
 
-14. sleek  
+14. Sleek（极简）  
     链接: [sandesh236/sleek--themes](https://github.com/sandesh236/sleek--themes)  
      ![sleek](screenshot/sleek.png)
 
-15. bigsur  
+15. BigSur（大苏尔）  
     链接: [Teraskull/bigsur-grub2-theme](https://github.com/Teraskull/bigsur-grub2-theme)  
      ![bigsur](screenshot/bigsur.png)
 
-16. atomic  
+16. Atomic（原子）  
     链接: [lfelipe1501/Atomic-GRUB2-Theme](https://github.com/lfelipe1501/Atomic-GRUB2-Theme)  
      ![atomic](screenshot/atomic.gif)
 
-17. fallout  
+17. fallout（辐射）  
     链接: [shvchk/fallout-grub-theme](https://github.com/shvchk/fallout-grub-theme)  
      ![fallout](screenshot/fallout.gif)
 
-18. arch / kali  
+18. Arch / Kali  
     链接: [xenlism/Grub-themes](https://github.com/xenlism/Grub-themes)  
      | ![arch](screenshot/arch.jpg) | ![kali](screenshot/kali.jpg) |
 
-19. dedsec  
+19. DedSec（死码）  
     链接: [vandalsoul/dedsec-grub2-theme](https://github.com/vandalsoul/dedsec-grub2-theme)  
      ![dedsec](screenshot/dedsec.png)
 
-20. whitesur  
-     链接: https://github.com/vinceliuice/grub2-themes  
-     ![whitesur](screenshot/whitesur.jpg)
+20. whitesur（白苏尔）  
+    链接: https://github.com/vinceliuice/grub2-themes  
+    ![whitesur](screenshot/whitesur.jpg)
 
 ---
 

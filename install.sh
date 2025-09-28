@@ -37,103 +37,74 @@ function check_root() {
 }
 
 function select_theme() {
-      # 选择主题
-            themes=('Amogus' 'Arcade' 'Arch' 'Atomic' 'BigSur' 'Cyberpunk' 'Cyberpunk2' 'CyberRe' 'Darkmatter' 'Deadpool' 'DedSec' 'fallout' 'Ichika' 'Itsuki' 'Kali' 'Mario' 'Miku' 'Monterey' 'Nino' 'Polylight' 'Sekiro' 'Shodan' 'Sleek' 'Tela' 'Vimix' 'Virtualfuture' 'whitesur' 'Yotsuba' 'Quit')
+                  # 选择主题
+                                    themes=(
+                                          'Amogus' \
+                                          'Arcade（街机）' \
+                                          'Arch' \
+                                          'Atomic（原子）' \
+                                          'BigSur（大苏尔）' \
+                                          'Cyberpunk（赛博朋克）' \
+                                          'Cyberpunk2（赛博朋克2）' \
+                                          'CyberRe' \
+                                          'Darkmatter（暗物质）' \
+                                          'Deadpool（死侍）' \
+                                          'DedSec（死码）' \
+                                          'fallout（辐射）' \
+                                          'Ichika（一花）' \
+                                          'Itsuki（五木）' \
+                                          'Kali' \
+                                          'Mario（马里奥）' \
+                                          'Miku（初音未来）' \
+                                          'Monterey（蒙特雷）' \
+                                          'Nino（二乃）' \
+                                          'Polylight（多光）' \
+                                          'Sekiro（只狼）' \
+                                          'Shodan（守望者）' \
+                                          'Sleek（极简）' \
+                                          'Tela（特拉）' \
+                                          'Vimix' \
+                                          'Virtualfuture（虚拟未来）' \
+                                          'whitesur（白苏尔）' \
+                                          'Yotsuba（四叶）' \
+                                          'Quit'
+                                    )
 
             PS3=$(echo_prompt '\n请选择要安装的主题: ')
-    select THEME_NAME in "${themes[@]}"; do
-        case "${THEME_NAME}" in
-          'Amogus')
-                                    splash '正在安装 AmongUS 主题'
-            break;;
-          'Arcade')
-                                    splash '正在安装 Arcade 主题'
-            break;;
-          'Arch')
-                                    splash '正在安装 Arch 主题'
-            break;;
-          'Atomic')
-                                    splash '正在安装 Atomic 主题'
-            break;;
-          'BigSur')
-                                    splash '正在安装 BigSur 主题'
-            break;;
-          'CyberRe')
-                                                splash '正在安装 CyberRe 主题'
-                break;;
-          'Cyberpunk')
-                                                splash '正在安装 Cyberpunk 主题'
-                break;;
-          'Cyberpunk2')
-                                                splash '正在安装 Cyberpunk2 主题'
-                break;;
-          'Darkmatter')
-                                                splash '正在安装 Darkmatter 主题'
-                break;;
-          'Deadpool')
-                                                splash '正在安装 Deadpool 主题'
-                break;;
-          'DedSec')
-                                                splash '正在安装 DedSec 主题' 
-                break;;
-          'fallout')
-                                                splash '正在安装 fallout 主题'
-                break;;
-          
-          'Ichika')
-                                                splash '正在安装 Ichika 主题' 
-                break;;
-          'Itsuki')
-                                                splash '正在安装 Itsuki 主题' 
-                break;;
-          'Kali')
-                                                splash '正在安装 Kali 主题' 
-                break;;
-          'Mario')
-                                                splash '正在安装 Mario 主题' 
-                break;;
-         'Miku')
-                                                splash '正在安装 Miku 主题' 
-                break;;
-          'Monterey')
-                                                splash '正在安装 Monterey 主题' 
-                break;;
-          'Nino')
-                                                splash '正在安装 Nino 主题' 
-                break;;
-          'Polylight')
-                                                splash '正在安装 Polylight 主题' 
-                break;;
-          'Sekiro')
-                                                splash '正在安装 Sekiro 主题'
-                break;;
-          'Shodan')
-                                                splash '正在安装 Shodan 主题'
-                break;;
-          'Sleek')
-                                                splash '正在安装 Sleek 主题'
-                break;;
-          'Tela')
-                                                splash '正在安装 Tela 主题'
-                break;;
-          'Vimix')
-                                                splash '正在安装 Vimix 主题'
-                break;;
-           'Virtualfuture')
-                                                splash '正在安装 Virtualfuture 主题'
-                break;;
-          'whitesur')
-                                                splash '正在安装 whitesur 主题' 
-                break;;
-          'Yotsuba')
-                                                splash '正在安装 Yotsuba 主题' 
-                break;;
-          'Quit')
-                                                echo_info '用户选择退出'
-                exit 0;;
-            *) echo_warning "invalid option \"${REPLY}\"";;
-        esac
-    done
+            select THEME_NAME in "${themes[@]}"; do
+                        case "${THEME_NAME}" in
+                              'Amogus') splash '正在安装 Amogus 主题'; break;;
+                              'Arcade（街机）') splash '正在安装 Arcade（街机）主题'; break;;
+                              'Arch') splash '正在安装 Arch 主题'; break;;
+                              'Atomic（原子）') splash '正在安装 Atomic（原子）主题'; break;;
+                              'BigSur（大苏尔）') splash '正在安装 BigSur（大苏尔）主题'; break;;
+                              'Cyberpunk（赛博朋克）') splash '正在安装 Cyberpunk（赛博朋克）主题'; break;;
+                              'Cyberpunk2（赛博朋克2）') splash '正在安装 Cyberpunk2（赛博朋克2）主题'; break;;
+                              'CyberRe') splash '正在安装 CyberRe 主题'; break;;
+                              'Darkmatter（暗物质）') splash '正在安装 Darkmatter（暗物质）主题'; break;;
+                              'Deadpool（死侍）') splash '正在安装 Deadpool（死侍）主题'; break;;
+                              'DedSec（死码）') splash '正在安装 DedSec（死码）主题'; break;;
+                              'fallout（辐射）') splash '正在安装 fallout（辐射）主题'; break;;
+                              'Ichika（一花）') splash '正在安装 Ichika（一花）主题'; break;;
+                              'Itsuki（五木）') splash '正在安装 Itsuki（五木）主题'; break;;
+                              'Kali') splash '正在安装 Kali 主题'; break;;
+                              'Mario（马里奥）') splash '正在安装 Mario（马里奥）主题'; break;;
+                              'Miku（初音未来）') splash '正在安装 Miku（初音未来）主题'; break;;
+                              'Monterey（蒙特雷）') splash '正在安装 Monterey（蒙特雷）主题'; break;;
+                              'Nino（二乃）') splash '正在安装 Nino（二乃）主题'; break;;
+                              'Polylight（多光）') splash '正在安装 Polylight（多光）主题'; break;;
+                              'Sekiro（只狼）') splash '正在安装 Sekiro（只狼）主题'; break;;
+                              'Shodan（守望者）') splash '正在安装 Shodan（守望者）主题'; break;;
+                              'Sleek（极简）') splash '正在安装 Sleek（极简）主题'; break;;
+                              'Tela（特拉）') splash '正在安装 Tela（特拉）主题'; break;;
+                              'Vimix') splash '正在安装 Vimix 主题'; break;;
+                              'Virtualfuture（虚拟未来）') splash '正在安装 Virtualfuture（虚拟未来）主题'; break;;
+                              'whitesur（白苏尔）') splash '正在安装 whitesur（白苏尔）主题'; break;;
+                              'Yotsuba（四叶）') splash '正在安装 Yotsuba（四叶）主题'; break;;
+                              'Quit') echo_info '用户选择退出'; exit 0;;
+                              *) echo_warning "invalid option \"${REPLY}\"";;
+                        esac
+            done
 }
 
 function backup() {
@@ -157,29 +128,32 @@ function install_theme() {
 }
 
 function config_grub() {
-      echo_primary '启用 GRUB 菜单'
-      # 删除已有的 GRUB_TIMEOUT_STYLE 配置
-    echo_info "sed -i '/GRUB_TIMEOUT_STYLE=/d' /etc/default/grub"
-    sed -i '/GRUB_TIMEOUT_STYLE=/d' /etc/default/grub
+  echo_primary '设置 GRUB 默认项和菜单样式'
+  # 设置 GRUB_DEFAULT
+  echo_info "sed -i '/GRUB_DEFAULT=/d' /etc/default/grub"
+  sed -i '/GRUB_DEFAULT=/d' /etc/default/grub
+  echo_info "echo 'GRUB_DEFAULT=\"1\"' >> /etc/default/grub"
+  echo 'GRUB_DEFAULT="1"' >> /etc/default/grub
 
-      echo_info "echo 'GRUB_TIMEOUT_STYLE=\"menu\"' >> /etc/default/grub"
-      echo 'GRUB_TIMEOUT_STYLE="menu"' >> /etc/default/grub
+  # 设置 GRUB_TIMEOUT_STYLE
+  echo_info "sed -i '/GRUB_TIMEOUT_STYLE=/d' /etc/default/grub"
+  sed -i '/GRUB_TIMEOUT_STYLE=/d' /etc/default/grub
+  echo_info "echo 'GRUB_TIMEOUT_STYLE=\"hidden\"' >> /etc/default/grub"
+  echo 'GRUB_TIMEOUT_STYLE="hidden"' >> /etc/default/grub
 
-      echo_primary '设置 GRUB 超时时间为 10 秒'
-      # 删除已有的 GRUB_TIMEOUT 配置
-    echo_info "sed -i '/GRUB_TIMEOUT=/d' /etc/default/grub"
-    sed -i '/GRUB_TIMEOUT=/d' /etc/default/grub
+  # 设置 GRUB_TIMEOUT
+  echo_info "sed -i '/GRUB_TIMEOUT=/d' /etc/default/grub"
+  sed -i '/GRUB_TIMEOUT=/d' /etc/default/grub
+  echo_info "echo 'GRUB_TIMEOUT=\"3\"' >> /etc/default/grub"
+  echo 'GRUB_TIMEOUT="3"' >> /etc/default/grub
 
-      echo_info "echo 'GRUB_TIMEOUT=\"10\"' >> /etc/default/grub"
-      echo 'GRUB_TIMEOUT="10"' >> /etc/default/grub
+  echo_primary "将 ${THEME_NAME} 设置为默认主题"
+  # 删除已有的 GRUB_THEME 配置
+  echo_info "sed -i '/GRUB_THEME=/d' /etc/default/grub"
+  sed -i '/GRUB_THEME=/d' /etc/default/grub
 
-      echo_primary "将 ${THEME_NAME} 设置为默认主题"
-      # 删除已有的 GRUB_THEME 配置
-    echo_info "sed -i '/GRUB_THEME=/d' /etc/default/grub"
-    sed -i '/GRUB_THEME=/d' /etc/default/grub
-
-    echo_info "echo \"GRUB_THEME=\"${THEME_DIR}/${THEME_NAME}/theme.txt\"\" >> /etc/default/grub"
-    echo "GRUB_THEME=\"${THEME_DIR}/${THEME_NAME}/theme.txt\"" >> /etc/default/grub
+  echo_info "echo \"GRUB_THEME=\"${THEME_DIR}/${THEME_NAME}/theme.txt\"\" >> /etc/default/grub"
+  echo "GRUB_THEME=\"${THEME_DIR}/${THEME_NAME}/theme.txt\"" >> /etc/default/grub
 }
 
 function update_grub() {

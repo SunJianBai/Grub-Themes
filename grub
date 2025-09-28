@@ -1,0 +1,48 @@
+# 如果你修改了本文件，请运行 'update-grub' 以更新 /boot/grub/grub.cfg。
+# 各项参数的完整文档请参见：
+#   info -f grub -n 'Simple configuration'
+
+GRUB_DEFAULT="1"
+GRUB_TIMEOUT_STYLE="hidden"
+GRUB_TIMEOUT="3"
+GRUB_DISTRIBUTOR="`( . /etc/os-release; echo ${NAME:-Ubuntu} ) 2>/dev/null || echo Ubuntu`"
+GRUB_CMDLINE_LINUX_DEFAULT="quiet splash"
+GRUB_CMDLINE_LINUX=""
+
+
+
+# 如果你的电脑安装了多个操作系统，建议启用 os-prober。
+# 但如果你的电脑作为虚拟机宿主机，os-prober 可能会挂载磁盘导致虚拟机损坏。
+#GRUB_DISABLE_OS_PROBER="false"
+
+
+
+# 取消注释以启用 BadRAM 过滤，可按需修改
+# 适用于 Linux（无需补丁）及任何能从 GRUB 获取内存映射的内核（如 GNU Mach、FreeBSD 等）
+#GRUB_BADRAM="0x01234567,0xfefefefe,0x89abcdef,0xefefefef"
+
+
+
+# 取消注释以禁用图形终端
+#GRUB_TERMINAL="console"
+
+
+
+# 图形终端分辨率
+# 仅可用显卡 VBE 支持的模式，可在 GRUB 中用 `vbeinfo` 查看
+#GRUB_GFXMODE="640x480"
+
+
+
+# 取消注释可阻止 GRUB 传递 "root=UUID=xxx" 参数给 Linux
+#GRUB_DISABLE_LINUX_UUID="true"
+
+
+# 取消注释以禁用恢复模式菜单项生成
+#GRUB_DISABLE_RECOVERY="true"
+
+
+
+# 取消注释以在 grub 启动时发出蜂鸣
+#GRUB_INIT_TUNE="480 440 1"
+GRUB_THEME="/usr/share/grub/themes/Sekiro/theme.txt"
